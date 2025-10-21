@@ -1,0 +1,262 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.7">
+  <diagram name="Page-1" id="WZ3Y3LO2B4sPOTR5UQ7m">
+    <mxGraphModel dx="922" dy="913" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="WVlSDgR-lRenfVWSKKzt-1" target="WVlSDgR-lRenfVWSKKzt-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-45" value="Start Backtest Job" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WVlSDgR-lRenfVWSKKzt-44">
+          <mxGeometry x="-0.3511" relative="1" as="geometry">
+            <mxPoint x="35" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-1" value="Frontend" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="150" width="270" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-3" value="React" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="WVlSDgR-lRenfVWSKKzt-1">
+          <mxGeometry x="10" y="35" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-4" value="NextJS" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="WVlSDgR-lRenfVWSKKzt-1">
+          <mxGeometry x="90" y="35" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-5" value="Runs on EC2?" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="WVlSDgR-lRenfVWSKKzt-1">
+          <mxGeometry x="180" y="20" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-6" value="ANALYTICS&lt;div&gt;DASHBOARD&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WVlSDgR-lRenfVWSKKzt-1">
+          <mxGeometry x="20" y="140" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-7" value="BACKTEST&lt;div&gt;SETUP&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WVlSDgR-lRenfVWSKKzt-1">
+          <mxGeometry x="130" y="140" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="240.0000000000001" as="sourcePoint" />
+            <mxPoint x="400" y="240.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-65" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WVlSDgR-lRenfVWSKKzt-49">
+          <mxGeometry x="0.005" y="1" relative="1" as="geometry">
+            <mxPoint x="1" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WVlSDgR-lRenfVWSKKzt-8" target="WVlSDgR-lRenfVWSKKzt-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="910" y="265" />
+              <mxPoint x="910" y="370" />
+              <mxPoint x="1050" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-77" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WVlSDgR-lRenfVWSKKzt-75">
+          <mxGeometry x="-0.556" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="-32" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-8" value="API Gateway" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="150" width="270" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-9" value="RESULTS&lt;div&gt;POLLING&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WVlSDgR-lRenfVWSKKzt-8">
+          <mxGeometry x="20" y="165" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-12" value="Python FastAPI" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="WVlSDgR-lRenfVWSKKzt-8">
+          <mxGeometry x="70" y="30" width="130" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-13" value="JOB&lt;div&gt;MANAGEMENT&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WVlSDgR-lRenfVWSKKzt-8">
+          <mxGeometry x="75" y="110" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-14" value="QUEUE JOBS" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WVlSDgR-lRenfVWSKKzt-8">
+          <mxGeometry x="140" y="165" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="WVlSDgR-lRenfVWSKKzt-15" target="WVlSDgR-lRenfVWSKKzt-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1355" y="535" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-80" value="Write Job&lt;div&gt;Status Updates&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WVlSDgR-lRenfVWSKKzt-79">
+          <mxGeometry x="-0.4687" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="WVlSDgR-lRenfVWSKKzt-15" target="WVlSDgR-lRenfVWSKKzt-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-82" value="Save Final&lt;div&gt;Backtest Stats&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WVlSDgR-lRenfVWSKKzt-81">
+          <mxGeometry x="-0.3678" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-15" value="Backtesting Engine" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="150" width="270" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-16" value="FETCH&amp;nbsp;&lt;div&gt;MARKET DATA&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WVlSDgR-lRenfVWSKKzt-15">
+          <mxGeometry x="20" y="165" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-17" value="Python Pandas" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="WVlSDgR-lRenfVWSKKzt-15">
+          <mxGeometry x="5" y="30" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-18" value="RUN&lt;div&gt;SIMULATIONS&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WVlSDgR-lRenfVWSKKzt-15">
+          <mxGeometry x="75" y="110" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-19" value="SAVE&amp;nbsp;&lt;div&gt;RESULTS&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WVlSDgR-lRenfVWSKKzt-15">
+          <mxGeometry x="140" y="165" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-20" value="Convert to C++?" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="WVlSDgR-lRenfVWSKKzt-15">
+          <mxGeometry x="120" y="30" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WVlSDgR-lRenfVWSKKzt-21" target="WVlSDgR-lRenfVWSKKzt-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-78" value="Start&lt;div&gt;Backtest&lt;/div&gt;&lt;div&gt;Job&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WVlSDgR-lRenfVWSKKzt-74">
+          <mxGeometry x="-0.1571" relative="1" as="geometry">
+            <mxPoint x="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-21" value="Queue" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="180" width="200" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-23" value="Redis?" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="WVlSDgR-lRenfVWSKKzt-21">
+          <mxGeometry x="10" y="30" width="90" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-25" value="MANAGE&lt;div&gt;QUEUE&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WVlSDgR-lRenfVWSKKzt-21">
+          <mxGeometry x="45" y="120" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-26" value="RabbitMQ?" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="WVlSDgR-lRenfVWSKKzt-21">
+          <mxGeometry x="95" y="30" width="100" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-42" value="AWS QUEUE?" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="WVlSDgR-lRenfVWSKKzt-21">
+          <mxGeometry x="42.5" y="62.5" width="115" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1185" y="480" as="sourcePoint" />
+            <mxPoint x="1293" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1293" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-63" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WVlSDgR-lRenfVWSKKzt-62">
+          <mxGeometry x="0.7128" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-64" value="&amp;nbsp; &amp;nbsp;&lt;div&gt;&amp;nbsp;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WVlSDgR-lRenfVWSKKzt-62">
+          <mxGeometry x="0.7769" y="-1" relative="1" as="geometry">
+            <mxPoint x="-2" y="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="380" as="targetPoint" />
+            <mxPoint x="915" y="540" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="905" y="540" />
+              <mxPoint x="730" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-67" value="&amp;nbsp; &amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WVlSDgR-lRenfVWSKKzt-66">
+          <mxGeometry x="0.7938" y="1" relative="1" as="geometry">
+            <mxPoint y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-27" value="Database" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="915" y="410" width="270" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-29" value="PostgreSQL" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="WVlSDgR-lRenfVWSKKzt-27">
+          <mxGeometry x="70" y="30" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-30" value="JOBS" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WVlSDgR-lRenfVWSKKzt-27">
+          <mxGeometry x="25" y="100" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-33" value="STRATEGIES" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WVlSDgR-lRenfVWSKKzt-27">
+          <mxGeometry x="130" y="150" width="115" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-34" value="TRADES" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WVlSDgR-lRenfVWSKKzt-27">
+          <mxGeometry x="25" y="150" width="115" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-35" value="BACKTEST STATS" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WVlSDgR-lRenfVWSKKzt-27">
+          <mxGeometry x="107.5" y="100" width="137.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-60" value="MARKET DATA METADATA" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WVlSDgR-lRenfVWSKKzt-27">
+          <mxGeometry x="70" y="200" width="122.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1610" y="270" as="sourcePoint" />
+            <mxPoint x="1490" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-71" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WVlSDgR-lRenfVWSKKzt-70">
+          <mxGeometry x="-0.0524" y="2" relative="1" as="geometry">
+            <mxPoint x="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-36" value="Market Data Storage" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="185" width="270" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-37" value="AWS S3?" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="WVlSDgR-lRenfVWSKKzt-36">
+          <mxGeometry x="70" y="30" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-38" value="RAW DATA" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WVlSDgR-lRenfVWSKKzt-36">
+          <mxGeometry x="25" y="100" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-41" value="OHLCV DATA" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WVlSDgR-lRenfVWSKKzt-36">
+          <mxGeometry x="107.5" y="100" width="137.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="WVlSDgR-lRenfVWSKKzt-15" target="WVlSDgR-lRenfVWSKKzt-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1235" y="765" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-61" value="Get Backtest&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Data Location&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WVlSDgR-lRenfVWSKKzt-59">
+          <mxGeometry x="-0.7021" y="-1" relative="1" as="geometry">
+            <mxPoint x="4" y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="230" as="sourcePoint" />
+            <mxPoint x="600" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-48" value="Backtest Job Polling" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WVlSDgR-lRenfVWSKKzt-47">
+          <mxGeometry x="0.1565" y="-1" relative="1" as="geometry">
+            <mxPoint x="-15" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="WVlSDgR-lRenfVWSKKzt-8" target="WVlSDgR-lRenfVWSKKzt-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-58" value="Backtest Job Polling" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WVlSDgR-lRenfVWSKKzt-57">
+          <mxGeometry x="-0.781" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WVlSDgR-lRenfVWSKKzt-15" target="WVlSDgR-lRenfVWSKKzt-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1590" y="265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-69" value="Get Backtest Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WVlSDgR-lRenfVWSKKzt-68">
+          <mxGeometry x="0.0352" y="-2" relative="1" as="geometry">
+            <mxPoint x="-2" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WVlSDgR-lRenfVWSKKzt-8" target="WVlSDgR-lRenfVWSKKzt-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WVlSDgR-lRenfVWSKKzt-76" value="Register&lt;div&gt;Backtest&lt;/div&gt;&lt;div&gt;Job&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WVlSDgR-lRenfVWSKKzt-73">
+          <mxGeometry x="0.325" y="1" relative="1" as="geometry">
+            <mxPoint x="-13" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
