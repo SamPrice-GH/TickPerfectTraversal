@@ -7,3 +7,5 @@
 !.yarn/releases
 !.yarn/versions
 .next
+.env
+.env.local

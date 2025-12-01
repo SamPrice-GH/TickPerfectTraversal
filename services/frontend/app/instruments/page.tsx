@@ -1,8 +1,7 @@
-export default function BacktestPage() {
-  const apiUrl = process.env.NEXT_PUBLIC_API_BASE_URL;
+export default function InstrumentsPage() {
   return (
     <div>
-      <h1 className="text-2xl font-bold mb-4">Backtest</h1>
+      <h1 className="text-2xl font-bold mb-4">Instruments</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra
         justo ac urna malesuada, in eleifend lorem blandit.
