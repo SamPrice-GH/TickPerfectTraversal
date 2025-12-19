@@ -1,6 +1,7 @@
-import "./globals.css";
+import "./globals.css"
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar"
 import { AppSidebar } from "@/components/app-sidebar"
+import ThemeProvider from "@/components/theme-provider"
 
 export const metadata = {
   title: "Tick Perfect Traversal",
@@ -14,13 +15,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="flex min-h-screen bg-gray-100">
-        <SidebarProvider defaultOpen={false}>
-          <AppSidebar />
-          <main className="p-6">
-            {children}
-          </main>
-        </SidebarProvider>
+      <body className="flex min-h-screen">
+        <ThemeProvider>
+          <SidebarProvider defaultOpen={false}>
+            <AppSidebar />
+            <main className="flex-1 p-4">{children}</main>
+          </SidebarProvider>
+        </ThemeProvider>
       </body>
     </html>
   );
