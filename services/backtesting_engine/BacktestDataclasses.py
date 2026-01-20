@@ -1,16 +1,17 @@
 from dataclasses import dataclass
-from datetime import datetime
+from datetime import datetime, timedelta
+from pathlib import Path
 from typing import Dict, Any
 
 @dataclass(frozen=True)
 class BacktestJobConfig:
     job_id: str
     instrument: str
-    timeframe: str              # 1min, 5min, 1h, 1d etc.
+    timeframe: timedelta              # 1min, 5min, 1h, 1d etc.
     start: datetime
     end: datetime
     strategy_name: str
-    data_root: str              # local path for now
+    data_root: Path              # local path for now
     cash: int
     commission: float
     finalize_trades: bool

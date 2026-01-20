@@ -10,7 +10,7 @@ class BacktestProgressSink(Protocol):
     ) -> None:
         ...
 
-class ConsoleProgressSink:
+class ConsoleProgressSink(BacktestProgressSink):
     def update(self, job_id, stage, message, progress=None):
         print(f"[{job_id}] {stage}: {message}")
 
