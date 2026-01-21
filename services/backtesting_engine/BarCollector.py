@@ -7,17 +7,7 @@ from Exceptions import BarCollectorException
 class BarCollector:
     def __init__(self):
         self.rows: list[OHLCVBar] = []
-
-    def consume_stream(self, tick_stream: TickStream, resampler: TickResampler):
-        try:
-            for tick in tick_stream.stream():
-                bar = resampler.update(tick)
-                if bar is not None:
-                    self.add_bar(bar)
-        except Exception as e:
-            raise BarCollectorException(f"Error consuming tick data in BarCollector: {e}") from e
         
-    # might want to construct dummy test data, expose this method
     def add_bar(self, bar):
         self.rows.append({
             "Timestamp": bar.start,

@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres
+    container_name: tpt_postgres
+    restart: unless-stopped
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: tpt_postgres_pass
+    volumes:
+      - pg_data:/var/lib/postgresql
+      - ./init:/docker-entrypoint-initdb.d
+
+volumes:
+  pg_data:
